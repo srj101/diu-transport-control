@@ -1,70 +1,112 @@
-# Getting Started with Create React App
+![Version](https://img.shields.io/badge/version-1.0-blue.svg?cacheSeconds=2592000)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<!-- PROJECT LOGO -->
+<br />
+<p align="center">
+  <a href="https://github.com/srj101/DIUTransport">
+    <img src="assets/images/tlogo.png" alt="Logo" width="120" height="120">
+  </a>
 
-## Available Scripts
+  <h3 align="center">DIU Transport Application</h3>
 
-In the project directory, you can run:
+  <p align="center">
+    Daffodil University Transport app made with React Native and firebase
+    <br />
+    <a href="https://github.com/srj101/DIUTransport/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/srj101/DIUTransport/issues">Request Feature</a>
+  </p>
+</p>
 
-### `npm start`
+<!-- ABOUT THE PROJECT -->
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## ℹ️ About The Project
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<!-- ![alt text](assets/images/AppP1.png "App P1")
+![alt text](assets/images/AppP2.png "App P2") -->
 
-### `npm test`
+It is made using React Native with Expo using firebase services (authentication, firestore and storage).
+The admin panel is made with ReactJS.
+The backend is all NodeJS
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🆕 Getting Started
 
-### `npm run build`
+- ### **Prerequisites**
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+  - [React Native](https://reactnative.dev/)
+  - [Expo](https://expo.dev/)
+  - [Firebase](https://firebase.google.com/)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<!-- GETTING STARTED -->
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- ### **Installation**
 
-### `npm run eject`
+  First, make sure you have Expo CLI installed: `npm install -g expo-cli`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+  Install: `yarn` or `yarn install`!
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+  Run Project Locally: `yarn dev` or `yarn start`
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 🚧 Roadmap & Latest Features
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+See the [open issues](https://github.com/srj101/DIUTransport/issues) for a list of proposed features (and known issues).
 
-## Learn More
+- Live GPS Tracking
+- iOS and Android
+- React Navigation v6
+- Ticket Booking
+- Real Time Updates
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+<!-- CONTRIBUTING -->
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## ➕ Contributing
 
-### Code Splitting
+Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**. Please follow below instructions to contribute
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- Fork `https://github.com/srj101/DIUTransport.git`
+- Clone Forked Repo
+- Make Your Changes
+- `git add.`
+- `git commit -m "Comment"`
+- `git push origin master`
+- Make Pull Request
 
-### Analyzing the Bundle Size
+<!-- SCREENSHORTS -->
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## 🔥 Screenshots
 
-### Making a Progressive Web App
+<p align="center">
+  <!-- <img src="https://i.ibb.co/XVkJkgR/ezgif-com-gif-maker.gif" width=200 height=400 />
+  <img src="https://i.ibb.co/VTKdmbh/Simulator-Screen-Shot-i-Phone-13-Pro-Max-2022-07-16-at-14-16-25.png" width=200 height=400 />
+  <img src="https://i.ibb.co/1mX58gY/Simulator-Screen-Shot-i-Phone-13-Pro-Max-2022-07-16-at-14-11-54.png" width=200 height=400 />
+  <img src="https://i.ibb.co/8NycK1w/Simulator-Screen-Shot-i-Phone-13-Pro-Max-2022-07-16-at-14-18-00.png" width=200 height=400 />
+    <img src="assets/images/Git/1.png" width=200 height=400 />
+  <img src="assets/images/Git/2.png" width=200 height=400 />
+  <img src="assets/images/Git/3.png" width=200 height=400 />
+  <img src="assets/images/Git/4.png" width=200 height=400 />
+  <img src="assets/images/Git/5.png" width=200 height=400 />
+  <img src="assets/images/Git/6.png" width=200 height=400 />
+  <img src="assets/images/Git/7.png" width=200 height=400 />
+  <img src="assets/images/Git/8.png" width=200 height=400 />
+  <img src="assets/images/Git/9.png" width=200 height=400 />
+  <img src="assets/images/Git/10.png" width=200 height=400 /> -->
+</p>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## 🌟 Show your support
 
-### Advanced Configuration
+Give a ⭐️ if this project inspires you!
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## 📝 License
 
-### Deployment
+Copyright © 2022 [DIU Transport](https://github.com/srj101/DIUTransport).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+This project is for Daffodil International University . All right reserved.
 
-### `npm run build` fails to minify
+<!-- CONTACT -->
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## 👤 Contact
+
+| **SR JOY**                                           | **Sakib Sarkar**                                         | **Sakir Hossain Faruqi**                                 | **Sheikh Foysal**                                         |
+| ---------------------------------------------------- | -------------------------------------------------------- | -------------------------------------------------------- | --------------------------------------------------------- |
+| - Facebook: [@srjoy01](https://facebook.com/srjoy01) | - Facebook: [@sakibsarkar](https://facebook.com/srjoy01) | - Facebook: [@sakirfaruqi](https://facebook.com/srjoy01) | - Facebook: [@sheikhfoysal](https://facebook.com/srjoy01) |
