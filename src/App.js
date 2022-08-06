@@ -6,6 +6,7 @@ import WebFont from "webfontloader";
 import Login from "./pages/Login";
 import Main from "./pages/Dashboard/Main";
 import Employees from "./pages/Dashboard/Employees";
+import BusTickets from "./pages/Dashboard/BusTickets";
 
 function App() {
   useEffect(() => {
@@ -23,8 +24,12 @@ function App() {
           path="Employees"
           element={<Employees title="Dashboard | Employees" />}
         />
+        <Route
+          path="busTickets"
+          element={<BusTickets title="Dashboard | Tickets" />}
+        />
       </Route>
-      <Route element={<Login />} />
+      <Route path="login" element={<Login title="DIU Transport | Login" />} />
       <Route path="*" element={`Not Found`} />
     </Routes>
   );

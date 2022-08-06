@@ -1,0 +1,25 @@
+.loginPage {
+  background-image: url("../assets/login-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center center;
+  height: 100vh;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.loginTextField {
+  color: #fff;
+}
+.inputFields {
+  display: flex;
+  flex-direction: column;
+  padding: 30px 60px;
+}
+.loginForm {
+  max-width: 40%;
+  background: rgba(255, 255, 255, 0.4);
+  padding: 25px;
+  text-align: center;
+}
