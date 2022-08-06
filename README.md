@@ -4,18 +4,15 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://github.com/srj101/DIUTransport">
-    <img src="assets/images/tlogo.png" alt="Logo" width="120" height="120">
-  </a>
 
   <h3 align="center">DIU Transport Application</h3>
 
   <p align="center">
     Daffodil University Transport app made with React Native and firebase
     <br />
-    <a href="https://github.com/srj101/DIUTransport/issues">Report Bug</a>
+    <a href="https://github.com/srj101/diu-transport-control/issues">Report Bug</a>
     ·
-    <a href="https://github.com/srj101/DIUTransport/issues">Request Feature</a>
+    <a href="https://github.com/srj101/diu-transport-control/issues">Request Feature</a>
   </p>
 </p>
 
@@ -32,12 +29,6 @@ The backend is all NodeJS
 
 ## 🆕 Getting Started
 
-- ### **Prerequisites**
-
-  - [React Native](https://reactnative.dev/)
-  - [Expo](https://expo.dev/)
-  - [Firebase](https://firebase.google.com/)
-
 <!-- GETTING STARTED -->
 
 - ### **Installation**
@@ -50,7 +41,7 @@ The backend is all NodeJS
 
 ## 🚧 Roadmap & Latest Features
 
-See the [open issues](https://github.com/srj101/DIUTransport/issues) for a list of proposed features (and known issues).
+See the [open issues](https://github.com/srj101/diu-transport-control/issues) for a list of proposed features (and known issues).
 
 - Live GPS Tracking
 - iOS and Android
@@ -64,7 +55,7 @@ See the [open issues](https://github.com/srj101/DIUTransport/issues) for a list 
 
 Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**. Please follow below instructions to contribute
 
-- Fork `https://github.com/srj101/DIUTransport.git`
+- Fork `https://github.com/srj101/diu-transport-control.git`
 - Clone Forked Repo
 - Make Your Changes
 - `git add.`
@@ -72,34 +63,13 @@ Contributions are what make the open source community such an amazing place to b
 - `git push origin master`
 - Make Pull Request
 
-<!-- SCREENSHORTS -->
-
-## 🔥 Screenshots
-
-<p align="center">
-  <!-- <img src="https://i.ibb.co/XVkJkgR/ezgif-com-gif-maker.gif" width=200 height=400 />
-  <img src="https://i.ibb.co/VTKdmbh/Simulator-Screen-Shot-i-Phone-13-Pro-Max-2022-07-16-at-14-16-25.png" width=200 height=400 />
-  <img src="https://i.ibb.co/1mX58gY/Simulator-Screen-Shot-i-Phone-13-Pro-Max-2022-07-16-at-14-11-54.png" width=200 height=400 />
-  <img src="https://i.ibb.co/8NycK1w/Simulator-Screen-Shot-i-Phone-13-Pro-Max-2022-07-16-at-14-18-00.png" width=200 height=400 />
-    <img src="assets/images/Git/1.png" width=200 height=400 />
-  <img src="assets/images/Git/2.png" width=200 height=400 />
-  <img src="assets/images/Git/3.png" width=200 height=400 />
-  <img src="assets/images/Git/4.png" width=200 height=400 />
-  <img src="assets/images/Git/5.png" width=200 height=400 />
-  <img src="assets/images/Git/6.png" width=200 height=400 />
-  <img src="assets/images/Git/7.png" width=200 height=400 />
-  <img src="assets/images/Git/8.png" width=200 height=400 />
-  <img src="assets/images/Git/9.png" width=200 height=400 />
-  <img src="assets/images/Git/10.png" width=200 height=400 /> -->
-</p>
-
 ## 🌟 Show your support
 
 Give a ⭐️ if this project inspires you!
 
 ## 📝 License
 
-Copyright © 2022 [DIU Transport](https://github.com/srj101/DIUTransport).
+Copyright © 2022 [DIU Transport](https://github.com/srj101/diu-transport-control).
 
 This project is for Daffodil International University . All right reserved.
 
