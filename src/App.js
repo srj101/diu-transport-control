@@ -28,6 +28,14 @@ function App() {
           path="busTickets"
           element={<BusTickets title="Dashboard | Tickets" />}
         />
+        <Route
+          path="BusInformation"
+          element={<BusTickets title="Dashboard | Bus Information" />}
+        />
+        <Route
+          path="BusRoute"
+          element={<BusTickets title="Dashboard | Bus Route" />}
+        />
       </Route>
       <Route path="login" element={<Login title="DIU Transport | Login" />} />
       <Route path="*" element={`Not Found`} />
