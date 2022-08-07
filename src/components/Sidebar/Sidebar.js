@@ -8,11 +8,18 @@ import ListItemIcon from "@mui/material/ListItemIcon";
 import ListItemText from "@mui/material/ListItemText";
 import InboxIcon from "@mui/icons-material/MoveToInbox";
 import ChevronLeftIcon from "@mui/icons-material/ChevronLeft";
+import DashboardIcon from "@mui/icons-material/Dashboard";
+import DocumentScannerIcon from "@mui/icons-material/DocumentScanner";
+import DirectionsBusFilledIcon from "@mui/icons-material/DirectionsBusFilled";
+import RouteIcon from "@mui/icons-material/Route";
+import PeopleAltIcon from "@mui/icons-material/PeopleAlt";
+import GroupAddIcon from "@mui/icons-material/GroupAdd";
+import DepartureBoardIcon from "@mui/icons-material/DepartureBoard";
+import LogoutIcon from "@mui/icons-material/Logout";
 import ChevronRightIcon from "@mui/icons-material/ChevronRight";
 import MailIcon from "@mui/icons-material/Mail";
 import { Typography, useTheme, styled, IconButton } from "@mui/material";
 import { useNavigate } from "react-router-dom";
-import { grey } from "@mui/material/colors";
 
 const drawerWidth = 240;
 
@@ -49,15 +56,15 @@ const Sidebar = ({ open, setOpen }) => {
       <DrawerHeader>
         <IconButton onClick={handleDrawerClose}>
           {theme.direction === "ltr" ? (
-            <ChevronLeftIcon />
+            <ChevronLeftIcon color="white" />
           ) : (
-            <ChevronRightIcon />
+            <ChevronRightIcon color="white" />
           )}
         </IconButton>
       </DrawerHeader>
-      <Divider />
+      <Divider color="white" />
       <Typography
-        variant="h6"
+        variant="p"
         component={`div`}
         noWrap
         style={{ padding: "15px" }}
@@ -66,9 +73,13 @@ const Sidebar = ({ open, setOpen }) => {
       </Typography>
       <List>
         <ListItem disablePadding>
-          <ListItemButton>
+          <ListItemButton
+            sx={{
+              borderRight: "5px solid #FFF",
+            }}
+          >
             <ListItemIcon>
-              <InboxIcon />
+              <DashboardIcon color="white" />
             </ListItemIcon>
             <ListItemText primary={`Dashboard`} onClick={() => navigate("/")} />
           </ListItemButton>
@@ -76,7 +87,7 @@ const Sidebar = ({ open, setOpen }) => {
         <ListItem disablePadding>
           <ListItemButton>
             <ListItemIcon>
-              <InboxIcon />
+              <DocumentScannerIcon color="white" />
             </ListItemIcon>
             <ListItemText
               primary={`Bus Tickets`}
@@ -87,7 +98,7 @@ const Sidebar = ({ open, setOpen }) => {
         <ListItem disablePadding>
           <ListItemButton>
             <ListItemIcon>
-              <MailIcon />
+              <DirectionsBusFilledIcon color="white" />
             </ListItemIcon>
             <ListItemText
               primary={`Bus Information`}
@@ -98,7 +109,7 @@ const Sidebar = ({ open, setOpen }) => {
         <ListItem disablePadding>
           <ListItemButton>
             <ListItemIcon>
-              <MailIcon />
+              <RouteIcon color="white" />
             </ListItemIcon>
             <ListItemText
               primary={`Bus Route`}
@@ -107,9 +118,9 @@ const Sidebar = ({ open, setOpen }) => {
           </ListItemButton>
         </ListItem>
       </List>
-      <Divider />
+      <Divider color="white" />
       <Typography
-        variant="h6"
+        variant="p"
         component={`div`}
         noWrap
         style={{ padding: "15px" }}
@@ -117,53 +128,59 @@ const Sidebar = ({ open, setOpen }) => {
         Employee Management
       </Typography>
       <List>
-        {["Employees", "Enroll New"].map((text, index) => (
-          <ListItem key={text} disablePadding>
-            <ListItemButton>
-              <ListItemIcon>
-                {index % 2 === 0 ? <InboxIcon /> : <MailIcon />}
-              </ListItemIcon>
-              <ListItemText
-                primary={text}
-                onClick={() => navigate("/Employees")}
-              />
-            </ListItemButton>
-          </ListItem>
-        ))}
+        <ListItem disablePadding>
+          <ListItemButton>
+            <ListItemIcon>
+              <PeopleAltIcon color="white" />
+            </ListItemIcon>
+            <ListItemText
+              primary={`Employees`}
+              onClick={() => navigate("/Employees")}
+            />
+          </ListItemButton>
+        </ListItem>
+        <ListItem disablePadding>
+          <ListItemButton>
+            <ListItemIcon>
+              <GroupAddIcon color="white" />
+            </ListItemIcon>
+            <ListItemText
+              primary={`Assign`}
+              onClick={() => navigate("/Employees")}
+            />
+          </ListItemButton>
+        </ListItem>
       </List>
-      <Divider />
+      <Divider color="white" />
       <Typography
-        variant="h6"
+        variant="p"
         component={`div`}
         noWrap
         style={{ padding: "15px" }}
       >
         Schedule Management
       </Typography>
+
       <List>
-        {["Schedule", "Shut Down"].map((text, index) => (
-          <ListItem key={text} disablePadding>
-            <ListItemButton>
-              <ListItemIcon>
-                {index % 2 === 0 ? <InboxIcon /> : <MailIcon />}
-              </ListItemIcon>
-              <ListItemText primary={text} />
-            </ListItemButton>
-          </ListItem>
-        ))}
+        <ListItem disablePadding>
+          <ListItemButton>
+            <ListItemIcon>
+              <DepartureBoardIcon color="white" />
+            </ListItemIcon>
+            <ListItemText primary="Schedule" />
+          </ListItemButton>
+        </ListItem>
       </List>
-      <Divider />
+      <Divider color="white" />
       <List>
-        {["Logout"].map((text, index) => (
-          <ListItem key={text} disablePadding>
-            <ListItemButton>
-              <ListItemIcon>
-                {index % 2 === 0 ? <InboxIcon /> : <MailIcon />}
-              </ListItemIcon>
-              <ListItemText primary={text} />
-            </ListItemButton>
-          </ListItem>
-        ))}
+        <ListItem disablePadding>
+          <ListItemButton>
+            <ListItemIcon>
+              <LogoutIcon color="white" />
+            </ListItemIcon>
+            <ListItemText primary={`Sign-out`} />
+          </ListItemButton>
+        </ListItem>
       </List>
     </Drawer>
   );

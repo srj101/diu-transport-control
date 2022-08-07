@@ -5,7 +5,11 @@ const Main = ({ title }) => {
     document.title = title;
     return;
   }, []);
-  return <div>Main</div>;
+  return (
+    <div>
+      <h4>Main</h4>
+    </div>
+  );
 };
 
 export default Main;

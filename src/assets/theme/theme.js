@@ -17,8 +17,7 @@ const theme = createTheme({
     MuiDrawer: {
       styleOverrides: {
         paper: {
-          background:
-            "linear-gradient(90deg, rgba(19,7,1,1) 0%, rgba(73,27,4,1) 77%, rgba(196,152,11,1) 100%)",
+          background: grey[900],
           color: "#fff",
         },
       },
