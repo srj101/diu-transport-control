@@ -21,6 +21,7 @@ import {
 } from "chart.js";
 import OverallList from "../components/overall-list/OverallList";
 import UsageList from "../components/usage/UsageList";
+import UserInfo from "../components/user-info/UserInfo";
 
 ChartJS.register(
   CategoryScale,
@@ -62,6 +63,9 @@ const Dashboard = () => {
         </div>
       </DashboardWrapperMain>
       <DashboardWrapperRight>
+        <div className="mb">
+          <UserInfo data={data.user} />
+        </div>
         <div className="title mb">Overall</div>
         <div className="mb">
           <OverallList />

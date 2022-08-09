@@ -25,6 +25,9 @@ const data = {
       percent: 55,
     },
   ],
+  user: {
+    name: "Sakir Hossain Faruqi",
+  },
   studentSummary: {
     title: "Students",
     value: "৯৪২৫ জন",

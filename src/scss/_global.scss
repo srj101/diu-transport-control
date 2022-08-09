@@ -20,7 +20,8 @@ body {
   background-color: $bodyBg;
   background-image: url("../assets/images/app-bg.jpg");
   background-size: cover;
-  backdrop-filter: hue-rotate(50deg);
+  background-repeat: no-repeat;
+  backdrop-filter: hue-rotate(30deg);
   overflow-x: hidden;
 }
 
