@@ -6,5 +6,5 @@ const colors = {
   orange: '#FF9066',
   accent: '#616161',
 };
-//comments
+//comment
 export default colors;
