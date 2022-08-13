@@ -23,9 +23,8 @@
 ![alt text](assets/11.gif "App P1")
 ![alt text](assets/12.gif "App P2")
 
-It is made using React Native with Expo using firebase services (authentication, firestore and storage).
-The admin panel is made with ReactJS.
-The backend is all NodeJS
+This admin panel is made with ReactJS.
+The backend is all NodeJS & AWS amplify
 
 ## 🆕 Getting Started
 
