@@ -13,7 +13,6 @@ const Test3 = ({ handleChange, state }) => {
         value={state.password}
         onChange={handleChange}
       />
-      <button className="btn btn-success btn-block">Sign up</button>
     </div>
   );
 };

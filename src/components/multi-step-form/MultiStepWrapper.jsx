@@ -3,13 +3,15 @@ import React from "react";
 const MultiStepWrapper = ({ state, setState, children, totalSteps, title }) => {
   const handleSubmit = (event) => {
     event.preventDefault();
+
     console.log(state);
   };
 
   const _next = () => {
     let currentStep = state.currentStep;
-    currentStep = currentStep >= 2 ? totalSteps : currentStep + 1;
+    currentStep = currentStep >= totalSteps - 1 ? totalSteps : currentStep + 1;
     setState({
+      ...state,
       currentStep: currentStep,
     });
   };
@@ -18,6 +20,7 @@ const MultiStepWrapper = ({ state, setState, children, totalSteps, title }) => {
     let currentStep = state.currentStep;
     currentStep = currentStep <= 1 ? 1 : currentStep - 1;
     setState({
+      ...state,
       currentStep: currentStep,
     });
   };
@@ -36,7 +39,7 @@ const MultiStepWrapper = ({ state, setState, children, totalSteps, title }) => {
 
   const nextButton = () => {
     let currentStep = state.currentStep;
-    if (currentStep < 3) {
+    if (currentStep < totalSteps) {
       return (
         <button
           className="btn btn-primary float-right"

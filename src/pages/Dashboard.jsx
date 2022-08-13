@@ -6,6 +6,7 @@ import DashboardWrapper, {
   DashboardWrapperRight,
 } from "../components/dashboard-wrapper/DashboardWrapper";
 import SummaryBox, {
+  SummaryBoxNumber,
   SummaryBoxSpecial,
 } from "../components/summary-box/SummaryBox";
 import { colors, data } from "../constants";
@@ -45,7 +46,11 @@ const Dashboard = () => {
                   key={`summary-${index}`}
                   className="col-6 col-md-6 col-sm-12 mb"
                 >
-                  <SummaryBox item={item} />
+                  {item.type === "number" ? (
+                    <SummaryBoxNumber item={item} />
+                  ) : (
+                    <SummaryBox item={item} />
+                  )}
                 </div>
               ))}
             </div>
@@ -63,10 +68,12 @@ const Dashboard = () => {
         </div>
       </DashboardWrapperMain>
       <DashboardWrapperRight>
-        <div className="mb">
+        <div style={{ paddingBottom: "15px", borderBottom: "1px solid #fff" }}>
           <UserInfo data={data.user} />
         </div>
-        <div className="title mb">Overall</div>
+        <div className="title mb" style={{ margin: "20px 0" }}>
+          Overall
+        </div>
         <div className="mb">
           <OverallList />
         </div>

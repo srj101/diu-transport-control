@@ -12,6 +12,24 @@
     }
   }
 
+  &__infoNumber {
+    width: 100%;
+    @include flex(center, center);
+    flex-direction: column;
+    text-align: center;
+
+    &__title {
+      font-size: $fontSizeMedium;
+      font-weight: 700;
+      line-height: 1.2;
+
+      span {
+        font-size: 13px;
+        font-weight: 400;
+      }
+    }
+  }
+
   &__info {
     width: 60%;
     @include flex(flex-start, space-between);
